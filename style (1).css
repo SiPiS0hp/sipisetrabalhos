@@ -75,3 +75,55 @@
     height: 80px;
     padding: 12px 0; 
 }
+
+.field {
+    width: 100%;
+    margin: 15px 0;
+}
+.mensagem {
+    line-height: 20px;
+    padding: 10px;
+    height: 110px;
+    resize: none;
+    width: 100%;
+}
+
+.div {
+    display: block;
+}
+
+.lado_1 {
+    padding: 0 20px 0 100px;
+}
+
+.formulario p {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.contato__texto {
+    font-weight: 300;
+    margin: 1em 0;
+    color: black;
+}
+
+input[type=submit] {
+    display: block;
+    background-color: #ccc;
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+  
+
+
+
