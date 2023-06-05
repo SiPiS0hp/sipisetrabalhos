@@ -139,8 +139,8 @@ input[type=submit] {
 
 .benner_pesquisa{
     background-color: transparent;
-    border: 1px solid var(--preto);
-    color: var(--preto);
+    border: 1px solid #B0C4DE ;
+    color: black;
     border-radius: 24px;
     padding: 1em;
     width: 100%;
