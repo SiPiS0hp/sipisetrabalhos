@@ -126,6 +126,8 @@ input[type=submit] {
     color: #B0C4DE;
     text-align: center;
     padding: 2.53em 2em;
+    background-color: #B0C4DE;
+    text-align: center;
 }
 
 .banner_titulo {
@@ -153,3 +155,5 @@ input[type=submit] {
     color: var(--preto);
     background-position: 1em;
 }
+
+
