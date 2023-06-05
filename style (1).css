@@ -121,6 +121,39 @@ input[type=submit] {
     border-radius: 15px;
 }
 
+.banner {
+    background-color: white;
+    color: #B0C4DE;
+    text-align: center;
+    padding: 2.53em 2em;
+}
+
+.banner_titulo {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.banner_texto{
+    font-weight: 500;
+}
+
+.benner_pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    border-radius: 24px;
+    padding: 1em;
+    width: 100%;
+}
+.banner_pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background-position: 1em;
+}
+
 
 
   
