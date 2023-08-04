@@ -1,103 +1,84 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colégio Estadual do Paraná</title>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Site Robótica</title>
+    <link rel="stylesheet" href="rob.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&amp;display=swap" rel="stylesheet">
 </head>
-<body> <link rel="stylesheet" href="style (1).css">
 
-<header class="cabeçalho">
-    <img class="imagem-cabeçalho" src="./ceplogo.png" alt="logo do Colégio"> 
-    
-    <h1>Colégio Estadual do Paraná - 2ºK</h1>
+<body>
+    <section id="Trab1">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> Sinaleiro (trabalho 1) </h2>
+            <br>
+            <p class="paragrafo-um">Aqui virá a introdução do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá o desenvolvimento do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá a conclusão do seu trabalho.</p>
+        </div>
+        <img class="foto-corpo" src="../g-foto.png.png" alt="foto do corpo">
+    </section>
+    <section id="Trab2">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> Trabalho 2 </h2>
+            <br>
+            <p class="paragrafo-um">Aqui virá a introdução do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá o desenvolvimento do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá a conclusão do seu trabalho.</p>    
+        </div>
+        <img class="foto-corpo" src="../g-foto.png.png" alt="foto do corpo">
+    </section>
+    <section id="Trab3">
+        <div class="corpo-div-conteudo">
+            <h2 class="corpo-titulo"> Trabalho 3 </h2>
+            <br>
+            <p class="paragrafo-um">Aqui virá a introdução do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá o desenvolvimento do seu trabalho.</p>
+            <br>
+            <p class="paragrafo-um">Aqui virá a conclusão do seu trabalho.</p>
+        </div>
+        <img class="foto-corpo" src="../g-foto.png.png" alt="foto do corpo">
+    </section>
+   <form class="formulario" action="https://formspree.io/f/mnqyywre" method="POST">
+        <p class="contato__texto"> Em caso de dúvidas, envie uma mensagem preenchendo o formulário abaixo.</p>
+        <div class="lado">
+            <div class="lado_1">
+                <div class="field">
+                    <label for="nome" class="contato__texto">Seu Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+                </div>
 
+                <div class="field">
+                    <label for="email" class="contato__texto">Seu E-Mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+                </div>
+            </div>
+            <div class="field">
+                <div class="lado_2">
+                <label for="mensagem" class="contato__texto">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required class="mensagem"></textarea>
+            </div>
+            </div>
+        </div>
+        <input type="submit" name="acao" value="Enviar">
+    </form>
 
-    <ul class="lista">
-        <li class="cabecalho-lista-item"><a href="#projeto>">Projeto</li>
-        <div class="lista-item"><a href= "#equipe"> Equipe</div>
-            <li><a href="programação.html"> Programação</a>
-                <li><a href="index.html">  Inicio</a>
-                    <li><a href="empreendedorismo.html"> Empreendedorismo</a>
-                        <li><a href="biotecnologia.html"> biotecnologia</a>
-            
-    </li>
-    </ul>   
-</header>
-
-<section class="projeto">
-    <div class="projeto-div">
-        <h2 class="projeto-titulo">Sobre o Projeto</h2>
-        <p class="projeto-texto">Este trabalho apresenta um programa simples e didático,
-        <br> desenvolvido para introduzir conceitos básicos de programação 
-        <br>aos alunos do ensino fundamental.</p>
-        <img class="projeto-imagem" src="./prototipo.jpg" alt="Codificando">
-    </div>
-</section>
-
-<section class="estudante">
-    <h2 class="estudante-titulo">Sobre os estudantes</h2>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./fertas.jpg" alt="fertas">
-        <h3 class="estudante-nome">Fernando</h3>
-
-        <p class="estudante-texto">Eu sou Fernando estudante do <br>
-            Colégio Estadual do Paraná,<br>
-        consegui uma vaga para entrar no colégio<br>
-         no primeiro ano do esnsino médio,<br>
-        e optei por escolher os estudos de exatas.<br>     
-        </p>      
-    </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./guilherme.jpg" alt="guilherme">
-        <h3 class="estudante-nome">Guilherme</h3>
-
-        <p class="estudante-texto">Meu nome é Guimerme de Almeida,<br>
-        cestudo no Colégio Estadual do Paraná <br>
-        desde o sétimo ano e jogo futsal no colégio.<br>
-        No primeiro ano do ensino médio eu<br> 
-        escolhi os estudos de exatas.<br> 
-        </p>    
-    </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./miguel.jpg" alt="Miguel Pilar">
-        <h3 class="estudante-nome">Miguel Pilar</h3>
-
-        <p class="estudante-texto">Me chamo Miguel Pilar, <br>
-            tenho 15 anos e sou afrodescendente,<br>
-        estudo no Colégio Estadual do Paraná. <br>
-        Jogo basquete no colégio, e optei <br>
-        pelos estudos de exatas.<br>  
-        </p>    
-    </div>
-
-    <div class="estudante-div">
-        <img class="estudante-imagem" src="./miguel de paula.jpg" alt="Miguel de Paula">
-        <h3 class="estudante-nome">Miguel de Paula</h3>
-
-        <p class="estudante-texto">Meu nome é Miguel de Paula,<br>
-        tenho 16 anos e estudo no Colégio<br> 
-        Estadual do Paraná. <br>
-        Entrei no colégio no primeiro ano <br>
-        do ensino médio e quero seguir carreira na área de exatas.<br>  
-        </p>    
-    </div>
-</div>
-
-             </div>
-</div>
-
-</section>
-
-
-<footer class="rodape">
-    <img class="rodape-imagem" src="ceplogo.png" alt="logo do Colégio">
-
-</footer>
-
+    <footer class="roda-pé">
+        <p class="fim"> Trabalho desenvolvido na disciplina de programação para a disciplina de Física I </p>
+        <div class="meio">
+        <img class="roda-pé-imagem" src="cep logo.png" alt="Logo">
+        <span></span>
+        <p class="roda-pé-texto">Colégio Estadual do Paraná</p>
+        </div>
+    </footer>
 </body>
 </html>
