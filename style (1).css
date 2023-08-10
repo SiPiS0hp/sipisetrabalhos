@@ -35,21 +35,14 @@
     width: 90%; 
     margin-left: 200px;
 }
-@media screen and (min-width: 720px)
-#quem-somos {
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
-    text-align: center;
-    padding: 25px 0;
-    background: #181818;
-}
 
-@media screen and (min-width: 720px)
-* {
-    margin: 0;
-    padding: 0;
+section {
+    display: block;
 }
-user agent stylesheet
+.carrosel {
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+}
 section {
     display: block;
 }
