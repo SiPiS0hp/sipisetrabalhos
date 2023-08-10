@@ -35,6 +35,24 @@
     width: 90%; 
     margin-left: 200px;
 }
+@media screen and (min-width: 720px)
+#quem-somos {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    background: #181818;
+}
+
+@media screen and (min-width: 720px)
+* {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+section {
+    display: block;
+}
 
 .projeto-titulo {
     padding: 24px 0;
