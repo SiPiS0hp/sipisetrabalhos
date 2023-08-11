@@ -114,28 +114,10 @@
 
     
     <script>
-            const slideControllers = document.querySelectorAll('.slide-controller');
-            const slidesList = document.querySelector('.slides-list');
-            let currentSlide = 0;
-    
-            
-            slideControllers.forEach((controller, index) => {
-                controller.addEventListener('click', () => {
-                    currentSlide = index;
-                    slidesList.style.left = `calc(${index} * -100%)`;
-                });
-            });
-    
-           
-                
-            } while (condition);
-            function autoChangeSlide() {
-                currentSlide = (currentSlide + 1) % slideControllers.length;
-                slideControllers[currentSlide].checked = true;
-                slidesList.style.left = `calc(${currentSlide} * -100%)`;
-            }
-            
-            setInterval(autoChangeSlide, 10000);
+            const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 100,
+   });
     
     </script>
     
