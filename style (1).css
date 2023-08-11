@@ -35,7 +35,19 @@
     width: 90%; 
     margin-left: 200px;
 }
+element.style {
+}
+.slide-show {
+    overflow: hidden;
+}
 
+div {
+    display: block;
+}
+.carrosel {
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+}
 section {
     display: block;
 }
