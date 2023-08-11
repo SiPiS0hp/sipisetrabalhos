@@ -42,7 +42,7 @@ input:not([type="range"]):not([type="color"]) {
 input:not([type="image" i]) {
     box-sizing: border-box;
 }
-user agent stylesheet
+
 input[type="radio" i] {
     background-color: initial;
     cursor: default;
@@ -53,7 +53,7 @@ input[type="radio" i] {
     border: initial;
 }
 
-user agent stylesheet
+
 input:not([type="range"]):not([type="color"]) {
     writing-mode: horizontal-tb 
 }
