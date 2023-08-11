@@ -44,16 +44,13 @@ element.style {
 div {
     display: block;
 }
-.carrosel {
-    text-align: center;
-    background-color: rgb(0, 174, 255);
-}
+
 section {
     display: block;
 }
 .carrosel {
     text-align: center;
-    background-color: rgb(185, 185, 185);
+    background-color: #B0C4DE
 }
 section {
     display: block;
