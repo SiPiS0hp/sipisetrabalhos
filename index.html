@@ -135,7 +135,9 @@
                 });
             });
     
-            // Função para alterar os slides automaticamente após 20 segundos
+            do {
+                // Função para alterar os slides automaticamente após 20 segundos
+            } while (condition);
             function autoChangeSlide() {
                 currentSlide = (currentSlide + 1) % slideControllers.length;
                 slideControllers[currentSlide].checked = true;
