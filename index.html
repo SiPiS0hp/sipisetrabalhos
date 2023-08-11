@@ -118,7 +118,7 @@
             const slidesList = document.querySelector('.slides-list');
             let currentSlide = 0;
     
-            // Adicionar um evento de clique para cada controlador de slide
+            
             slideControllers.forEach((controller, index) => {
                 controller.addEventListener('click', () => {
                     currentSlide = index;
@@ -126,27 +126,20 @@
                 });
             });
     
-            do {
-                // Função para alterar os slides automaticamente após 20 segundos
+           
+                
             } while (condition);
             function autoChangeSlide() {
                 currentSlide = (currentSlide + 1) % slideControllers.length;
                 slideControllers[currentSlide].checked = true;
                 slidesList.style.left = `calc(${currentSlide} * -100%)`;
             }
-            // Definir um temporizador para alternar automaticamente os slides a cada 20 segundos (20000 milissegundos)
+            
             setInterval(autoChangeSlide, 10000);
-        </script>
+    
+    </script>
     
     </section>
-
-
-
-
-
-
-
-
     <section class="projeto">
         <div class="projeto-div">
             <h2 class="projeto-titulo">Sobre o Projeto</h2>
